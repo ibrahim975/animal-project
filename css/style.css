@@ -468,9 +468,11 @@ footer li a .fab{
 	    font-size: 22px;
 	    text-align: center;
 	}
-	.navber-brand img{
-		max-width: 30%;
-		
+	.navbar-brand {
+	    max-width: 30%;
+	}
+	header img {
+	    margin-left: initial;
 	}
 	header form {
 	    width: 60%;
