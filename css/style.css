@@ -1,0 +1,707 @@
+/* google font poppins here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*other google font here
+	font-family: 'Poppins', sans-serif;
+*/
+/*========
+global css
+==========*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	 text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+/*=============
+header section
+===============*/
+header{
+	background-color: #daac00;
+
+}
+header .navbar{
+	padding: 20px  0;
+}
+header img{
+	margin-left: -30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.nav-item{
+	margin: 0 15px;
+}
+header .form-control{
+	border-radius: initial;
+	background-color: #fcc302;
+	border: none;
+	color: #fff;
+}
+header .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+header .form-control::placeholder { 
+  	color: #fff;
+  	font-size: 17px;
+}
+
+header .btn{
+	border-radius: initial;
+	background-color: #00bec9;
+	border: none;
+	padding: .375rem 1.25rem;
+	font-size: 20px;
+	color: #fff;
+}
+header form{
+	box-shadow: 5px 5px 12px #565454;
+}
+/*=============
+banner-section
+===============*/
+.banner-section{
+	background-color: #fcc302;
+	height: 110vh;
+}
+.banner-section h2 {
+    color: #fff;
+    font-size: 57px;
+    line-height: 55px;
+    padding-top: 30%;
+}
+.banner-section p{
+	color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 25px 0 30px;
+}
+.banner-section .btn{
+	margin-right: 20px;
+}
+.banner-section .contact{
+	background-color: #00bec9;
+	color: #fff;
+	font-weight:500; 
+}
+.banner-section .service{
+	border: 2px solid #fff;
+	color: #fff;
+}
+.banner-section img{
+	display: block;
+	margin: 15% auto 0;
+	max-width: 75%;
+}
+/*=================
+first-about-section
+===================*/
+.first-about-section{
+	padding: 100px 0;
+}
+.first-about-section h2 {
+    color: #313243;
+    font-size: 48px;
+    line-height: 55px;
+    padding-top: 12%
+    
+}
+.first-about-section p{
+	color: #313243;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 25px 0 30px;
+    padding-right: 25px;
+}
+.first-about-section .btn{
+	margin-right: 20px;
+}
+.first-about-section .service{
+	background-color: #fcc302;
+	color: #fff;
+	font-weight:500; 
+}
+.first-about-section .about-img-1{
+	position: relative;
+}
+.first-about-section .about-img-1 i {
+    position: absolute;
+    top: 47%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color: #fff;
+}
+/*=================
+second-about-section
+===================*/
+.second-about-section{
+	background-color: #fcc302;
+	height: 950px;
+	padding: 80px 0;
+}
+.second-about-section h1{
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.second-about-section p{
+	color: #fff;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 190px;
+	line-height: 35px;
+}
+.second-about-section .first-card img{
+	margin: 80px 0 45px;
+}
+.second-about-section .first-card h3{
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.second-about-section .first-card p{
+    padding: 0;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+}
+/*=================
+third-about-section
+===================*/
+.third-about-section{
+	padding: 100px 0;
+}
+.third-about-section h2 {
+    color: #313243;
+    font-size: 48px;
+    line-height: 55px;
+    padding-top: 12%
+    
+}
+.third-about-section p{
+	color: #313243;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 25px 0 30px;
+    padding-left: 25px;
+}
+.third-about-section .btn{
+	margin-right: 20px;
+}
+.third-about-section .service{
+	background-color: #fcc302;
+	color: #fff;
+	font-weight:500; 
+}
+.third-about-section .about-img-1{
+	position: relative;
+}
+.third-about-section .about-img-1 i {
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color: #fff;
+    overflow: hidden;
+}
+/*=================
+fourth-about-section
+===================*/
+.fourth-about-section{
+	background-color: #fcc302;
+	height: 950px;
+	padding: 80px 0;
+}
+.fourth-about-section h1{
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.fourth-about-section p{
+	color: #fff;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 190px;
+	line-height: 35px;
+}
+.fourth-about-section .second-card img{
+	margin: 80px 0 45px;
+}
+.fourth-about-section .second-card h3{
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.fourth-about-section .second-card del{
+	padding-right: 20px;
+}
+ .prize-btn{
+ 	margin: 0 auto;
+	display: block; 
+	border-radius: 25px;
+	background-color: #00bec9;
+	color: #fff;
+	font-weight:500;
+}
+/*=================
+vatcare-team-section
+===================*/
+.vatcare-team-section{
+	height: 950px;
+	padding: 80px 0;
+}
+.vatcare-team-section h1{
+	color: #313243;
+	font-size: 65px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.vatcare-team-section p{
+	color: #313243;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 190px;
+	line-height: 35px;
+}
+.vatcare-team-section .third-card img{
+	margin: 80px 0 45px;
+}
+.vatcare-team-section .third-card h3{
+	color: #313243;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+}
+.vatcare-team-section .third-card p{
+	text-align: center;
+	padding: 0;
+	font-size: 22px;
+	line-height: 15px
+}
+.vatcare-team-section .third-card ul{
+	margin-top: 30px;
+}
+.vatcare-team-section .third-card ul li{
+	display: inline;
+	margin: 0 5px;
+}
+.vatcare-team-section .third-card ul li a .fab{
+	background-color: #daac00;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	font-size: 22px;
+}
+/*=================
+contact-section
+===================*/
+.contact-section{
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 500px;
+	padding: 100px 0;
+}
+.contact-section i{
+	font-size: 100px;
+    color: #fff;
+    margin: 50px 0 30px;
+}
+ .contact-section p{
+ 	 font-size: 32px;
+    color: #fff;
+    margin: 0;
+} 
+.contact-section h3{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+/*=================
+Recent-Posts-section
+===================*/
+.Recent-Posts-section{
+	height: 950px;
+	padding: 80px 0;
+}
+.Recent-Posts-section h1{
+	color: #313243;
+	font-size: 65px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.Recent-Posts-section .p{
+	color: #313243;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 190px;
+	line-height: 35px;
+}
+.fourth-card h3{
+	font-size: 26px;
+	color: #313243;
+	font-weight: bold;
+}
+.fourth-card h6{
+	color: #66d8df;
+}
+.fourth-card p{
+	padding: 0;
+}
+.fourth-card .card{
+	transition: 0.3s;
+	margin-top: 30px; 
+}
+.fourth-card .card:hover{
+	box-shadow: 2px 2px 20px #565454;
+	transform: scale(0.9);
+}
+/*=================
+footer section
+===================*/
+footer{
+	padding: 100px 0;
+	background-color: #343434;
+	color: #fff;
+}
+footer  h3{
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+footer p{
+	font-size: 18px;
+	line-height: 5px;
+	margin: 0
+	padding: 0;
+}
+footer ul li{
+	margin: 10px 0;
+}
+footer ul li a{
+	color: #fff;
+	font-size: 18px;
+}
+footer form{
+	margin: 50px 0;
+}
+footer .form-control{
+	height: 75px;
+	border-radius: initial;
+	background-color: #daac00;
+	border: none;
+}
+footer .btn{
+	width: 150px;
+	border-radius: initial;
+	background-color: #00bec9;
+	border: none;
+}
+footer form i{
+	font-size: 30px;
+	color: #fff;
+}
+footer .social-icon li{
+	display: inline;
+	margin: 0 5px;
+}
+footer li a .fab{
+	background-color: #fff;
+	color: #343434;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	font-size: 22px;
+}
+
+/*mobile verson css */
+@media only screen and (max-width: 600px) {
+  .navbar-light .navbar-nav .nav-link {
+	    font-size: 22px;
+	    text-align: center;
+	}
+	header form {
+	    width: 60%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.banner-section {
+	    height: 105vh;
+	}
+	.banner-section h2{
+	    font-size: 32px;
+	    line-height: 40px;
+	    padding-top: 14%;
+	    text-align: center;
+	}
+	.banner-section p {
+	    color: #fff;
+	    font-size: 18px;
+	    line-height: 26px;
+	    margin: 15px 0 23px;
+	    text-align: center;
+	}
+	.banner-section form{
+		text-align: center;
+	}
+	.banner-section .btn-lg {
+	    font-size: 18px;
+	    padding: 5px 10px;
+	}
+	.banner-section img {
+	    display: block;
+	    margin: 13% auto 0;
+	    max-width: 60%;
+	}
+	.first-about-section {
+	    padding: 50px 0;
+	}
+	.first-about-section h2 {
+	    font-size: 33px;
+	    padding-top: 0%;
+	    line-height: 40px;
+	    text-align: center;
+	}
+	.first-about-section p{
+	    padding-right: 0;
+	    text-align: center;
+	    padding: 0 25px;
+	    font-size: 18px;
+	}
+	.first-about-section .service {
+	    display: block;
+	    margin: 0 auto 30px;
+	    font-size: 18px;
+	    padding: 5px 10px;
+	}
+	.first-about-section .about-img-1 {
+	    width: 70%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.second-about-section {
+	    padding: 50px 0;
+	    height: auto;
+	}
+	.second-about-section h1 {
+	    color: #fff;
+	    font-size: 45px;
+	    padding-bottom: 0;
+	}
+	.second-about-section p {
+	    font-size: 20px;
+	    padding: 0 70px;
+	    line-height: 30px;
+	}
+	.second-about-section .first-card img {
+	    margin: 20px auto 28px;
+	    display: block;
+	    max-width: 70%;
+	}
+	.second-about-section .first-card h3 {
+	    font-size: 26px;
+	    padding-bottom: 0;
+	}
+	.second-about-section .first-card p {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.third-about-section {
+	    padding: 50px 0;
+	}
+	.third-about-section .about-img-1 {
+	    max-width: 70%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.third-about-section h2 {
+	    font-size: 33px;
+	    line-height: 40px;
+	    padding-top: 8%;
+	    text-align: center;
+	}
+	.third-about-section p {
+	    font-size: 18px;
+	    line-height: 28px;
+	    padding-left: 0;
+	    text-align: center;
+	    padding: 0 22px;
+	}
+	.third-about-section .service {
+	    display: block;
+	    margin: 0 auto;
+	    padding: 5px 10px;
+	}
+	.fourth-about-section h1 {
+	    font-size: 45px;
+	    padding-bottom: 0;
+	}
+	.fourth-about-section p {
+	    font-size: 20px;
+		padding: 0 70px;
+		line-height: 30px;
+	}
+	.fourth-about-section {
+	    height: auto;
+	    padding: 50px 0;
+	}
+	.fourth-about-section .second-card img {
+	    margin: 50px auto 15px;
+	    max-width: 70%;
+	    display: block;
+	}
+	.prize-btn {
+	    font-size: 18px;
+	}
+	.fourth-about-section .second-card h3 {
+	    padding-bottom: 0;
+	}
+	.vatcare-team-section {
+	    height: auto;
+	    padding: 50px 0;
+	}
+	.vatcare-team-section h1 {
+	    font-size: 45px;
+	    padding-bottom: 0;
+	    padding: 0 20px;
+	}
+	.vatcare-team-section p {
+   		font-size: 20px;
+		padding: 0 70px;
+		line-height: 30px;
+	}
+	.vatcare-team-section .third-card img {
+	    margin: 50px auto 15px;
+	    max-width: 70%;
+	    display: block;
+	}
+	.vatcare-team-section .third-card ul {
+	    margin-top: 20px;
+	}
+	.contact-section {
+	    height: auto;
+	    padding: 50px 0;
+	}
+	.contact-section i {
+	    font-size: 70px;
+	    margin: 40px 0 15px;
+	}
+	.contact-section p {
+	    font-size: 28px;
+	}
+	.contact-section h3 {
+	    font-size: 27px;
+	}
+	.Recent-Posts-section {
+	    height: auto;
+	    padding: 50px 0;
+	}
+	.Recent-Posts-section h1 {
+    	font-size: 45px;
+	    padding-bottom: 0;
+	}
+	.Recent-Posts-section .p {
+	   font-size: 20px;
+		padding: 0 70px;
+		line-height: 30px;
+	}
+	.fourth-card .card {
+	    max-width: 70%;
+	    margin: 15px auto;
+	}
+	.fourth-card h3 {
+	    font-size: 22px;
+	}
+	
+	footer {
+	    padding: 50px 0;
+	}
+	footer h3 {
+	    font-size: 22px;
+	    padding-bottom: 0;
+	}
+	footer ul li a {
+	    font-size: 15px;
+	}
+	footer p {
+	    font-size: 18px;
+	    line-height: 26px;
+	    margin-top: 10px;
+	    margin-bottom: 0;
+	}
+	footer li a .fab {
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 18px;
+	}
+	footer .form-control {
+	    height: 65px;
+	}
+	footer .btn {
+	    width: 70px;
+	}
+	.footer-send h3{
+		text-align: center;
+		padding-top: 40px;
+	}
+	.footer-send p{
+		text-align: center;
+	}
+	footer form {
+	    margin: 20px auto;
+	    width: 70%;
+	}
+	.footer-send ul{
+		text-align: center;
+	}
+
+}
